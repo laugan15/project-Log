@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./registerstyle.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> 
+  
+     <script src="./authentificationApp.js" defer></script>
+    <script src="./registerapp.js" defer></script>
+
+    <title>Register Page</title>
+</head>
+<body>
+  <header>
+    <img src="./images/img-lion.jpeg" alt="" />
+    <div id="user-status"></div>
+    <div class="headerRight"> 
+      <a class="login" href="../front-login/login.html">LOGIN</a>   </div>
+  </header>
+  <main>
+    <form data-login-form-register>
+        <h1>Join Us !</h1>
+        <label for="first-name">First Name</label>
+        <input id="first-name" type="first-name" required />
+        <label for="last-name">last name</label>
+        <input id="last-name" type="last-name" required />
+        <label for="username">USERNAME</label>
+      <input id="username" type="text" required />
+        <label for="email">email</label>
+        <input id="email" type="email" required />
+        <label for="password">PASSWORD</label>
+        <input id="password" type="password" required />
+        <i class="fa-solid fa-eye" id="eye"></i>
+      <p data-login-form-message-register></p>
+     
+      <button type="submit">Register</button>
+      <a href="../front-login/login.html">You Already have an accont ? Login here </a>
+    </form>
+  </main>
+  <footer> Copy Right Laurie Dayan 2022 &copy;</footer>
+</body>
+</html>

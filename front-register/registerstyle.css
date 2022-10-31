@@ -1,0 +1,108 @@
+
+
+  :root {
+    --background-color: #030709;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.5px;
+  }
+  
+
+
+  form {
+      display: flex;
+      width: 50%;
+      height: 450px;
+      align-items: stretch;
+      flex-direction: column;
+      justify-content: space-evenly;
+      border: 2px double white;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: rgba(140, 87, 145, 0.493); 
+    }
+  
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--background-color);
+    color: black;
+  }
+  
+  header {
+    height: 80px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 0 20px;
+  }
+  
+  img {
+      height: 15vh;
+      width: 10vw;
+    }
+  
+  main {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    height: 30px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+  }
+  
+ 
+  button:hover {
+      background-color :rgba(140, 87, 145, 0.493); 
+      color: white;
+    }
+    
+    a{
+      color: white;
+      text-align: center;
+      margin-top: 10px;
+      letter-spacing: 2px;
+    }
+    
+    a:hover {
+    font-size: 20px;
+    color:rgb(0, 0, 0); 
+    }
+
+    .headerRight a {
+      text-align: center;
+      text-decoration: none;
+      font-size: 20px;
+      border-radius: 4px;
+       }
+     
+     .headerRight a:hover {
+     color:rgba(146, 68, 153, 0.603); 
+     } 
+     
+
+
+.fa-eye{
+  display: flex;
+  align-items: flex-end;
+  cursor: pointer;
+  color: black;
+}
